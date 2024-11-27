@@ -1,0 +1,148 @@
+
+* {
+  
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(46, 54, 54, 0.981);
+  margin-top: 3px;
+  
+}
+h1{
+    font-size: 90px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    font-size: 40px;
+    text-shadow: #1b0101;
+
+    color: white;
+    font-family: 'Times New Roman', Times, serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h4{
+  color: white;
+  padding: 0%;
+  margin-left: 3%;
+}
+h4:hover{
+  color:rgb(2, 2, 68)
+}
+h6{
+    color:#f9fbfa;
+    font-size: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+    justify-self: unset; 
+    
+}
+
+.logo {
+  color: #f6f5f5;
+  font-size: 39px;
+}
+.Fine{
+  text-align: center;
+  color: white;
+  height: 100%;
+  width:100%;
+  text-align: left;
+  margin: auto;
+  background-color:rgb(9, 2, 68);;
+  border: 2px solid white;
+  letter-spacing: 2;
+  line-height: 2px;
+  padding: 40px;
+}
+
+
+
+.logo span {
+  color: blue;
+}
+
+
+.menu-bar {
+  background-color: rgb(9, 2, 68);
+  height: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+
+  position: relative;
+}
+
+.menu-bar ul {
+  list-style: none;
+  display: flex;
+}
+
+.menu-bar ul li {
+  /* width: 120px; */
+  padding: 35px;
+  /* text-align: center; */
+
+  position: relative;
+}
+
+.menu-bar ul li a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+
+  transition: all 0.5s;
+}
+
+.menu-bar ul li a:hover {
+  color:rgb(45, 36, 226);
+}
+
+
+
+/* dropdown menu style */
+.dropdown-menu {
+  display: none;
+}
+
+.menu-bar ul li:hover .dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 80%;
+  background-color:rgb(9, 2, 68)
+}
+
+.menu-bar ul li:hover .dropdown-menu ul {
+  display: block;
+  margin: 1px;
+}
+
+.menu-bar ul li:hover .dropdown-menu ul li {
+  width: 159px;
+  left:0;
+  padding: 1px;
+}
+
+.dropdown-menu-1 {
+  display: none;
+}
+
+.dropdown-menu ul li:hover .dropdown-menu-1 {
+  display: block;
+  position: absolute;
+  left: 160px;
+  top: 0;
+  background-color: rgb(9, 2, 68);
+}
+
+.hero {
+  height: calc(100vh - 80px);
+  
+  background-position: center;
+}
